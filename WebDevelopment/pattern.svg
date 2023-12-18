@@ -1,0 +1,30 @@
+<svg width="100%" height="100%" style="background-color:#e3e8e6;"
+xmlns="http://www.w3.org/2000/svg" 
+xmlns:ev="http://www.w3.org/2001/xml-events" 
+xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <pattern id="floor" width="110" height="110" viewBox="0 0 40 40" patternUnits="userSpaceOnUse" patternTransform="rotate(90)">
+      <rect width="100%" height="100%" fill="#d49b4e"/>
+      <path d="M0 0L20 0L20 20L0 20L0 0zM3 3L6 14L17 17L14 6zM20 20L40 20L40 40L20 40L20 20zM23 23L26 34L37 37L34 26z" fill="#7e4b20"/>
+      <path d="M26 6L37 3L34 14L23 17zM6 26L17 23L14 34L3 37z" fill="#f1bd74"/>
+    </pattern>
+  </defs>
+  <polygon points="1000 300 550 500 1050 750 1460 550" fill="url(#floor)"/>
+  <!-- интерьер -->
+  <rect x="810" y="530" width="10" height="24" fill="#150c17" />
+  <rect x="658" y="465" width="10" height="24" fill="#150c17" />
+  <rect x="1005" y="440" width="10" height="24" fill="#150c17" />
+  <ellipse cx="970" cy="360" rx="25" ry="15" fill="#25191e" />
+  <rect x="967" y="255" width="5" height="105" fill="#0a0708" />
+  <rect x="745" y="370" width="200" height="100" fill="#90529e" />
+  <rect x="945" y="400" width="50" height="50" fill="#90529e" />
+  <rect x="840" y="450" width="50" height="50" fill="#90529e" />
+  <path fill="#bd91c7" d="M 993.5 379.5 L 857.25 324.5 C 834.75 313.25 827.25 315.5 821.25 329.75 L 822.75 383 L 972 435.5 L 1001.25 379.25" />
+  <path fill="#25191e" d="M 945 253 C 965 263 975 263 995 253 L 985 223 C 975 233 965 233 955 223 L 945 253 M 985 223 C 985 213 955 213 955 223 M 955 223 C 965 233 975 233 985 223" />
+  <path fill="#a86eb5" d="M 711 343.25 L 818 299 C 835 296 842 334 822.75 383 L 743.25 416" />
+  <path fill="#a86eb5" d="M 811 541 L 1017.75 449.75 L 1015.5 393.5 C 1015.5 379.25 990 362 972 402.5 L 972.75 435.5 L 857.25 484.25 C 855.75 475.25 861 455.75 844 454 C 819 450 803 460 810.5 493.5" />
+  <path fill="#bd91c7" d="M 702.75 403.25 L 702.75 364.25 C 702 329.75 738.75 338.75 741.75 365 L 744 415.25 L 844.5 453.5 C 807 462.5 811 502 811 541 L 652.5 473.75 L 653.25 421.25 C 670.5 384.5 702.75 392.75 702.75 403.25" />
+  
+  
+
+</svg>

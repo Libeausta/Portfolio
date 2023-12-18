@@ -1,0 +1,75 @@
+@keyframes gears{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
+@keyframes gearleft{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(-360deg);
+	}
+}
+@keyframes tics{
+	from{
+    transform: rotate(-20deg);
+	}
+	50%{
+    transform: rotate(20deg);
+	}
+}
+.gear1{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 323px;
+	left: 855px;
+	animation-name: gears;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.gear2{
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	top: 367px;
+	left: 897px;
+	animation-name: gears;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.gear3{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 290px;
+	left: 840px;
+	animation-name: gearleft;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.clock{
+	position:absolute;
+	top: 20px;
+	left: 650px;
+}
+.tic{
+	transform: rotate(-20deg);
+	width: 140px;
+	height: 280px;
+	position: absolute;
+	top: 605px;
+	left: 900px;
+	animation-name: tics;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	transform-origin: 55px -90px 0px;
+}

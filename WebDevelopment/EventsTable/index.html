@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Смена цвета ячейки</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+	<table id="tb1">
+		<tr>
+			<td rowspan="3" id="colors"><b>Предмет</b></td>
+			<td rowspan="3" id="colors"><b>Учитель</b></td>
+			<td rowspan="3" id="colors"><b>Количество уроков в учебном году</b></td>
+			<td colspan="6" id="colors"><b>Ученик</b></td>
+		</tr>
+	
+		<tr>
+			<td colspan="3"> Иванов Петя </td>
+			<td colspan="3"> Петров Ваня </td>
+		</tr>
+		
+		<tr>
+			<td> I</td>
+			<td> II </td>
+			<td> Год </td>
+			<td > I</td>
+			<td> II </td>
+			<td> Год </td>
+		</tr>
+		<tr>
+			<td>Русский язык</td>
+			<td>Кошкина А.Б.</td>
+			<td>190</td>
+			<td> </td>
+			<td>  </td>
+			<td> </td>
+			<td> </td>
+			<td>  </td>
+			<td> </td>
+		</tr>
+		
+		<tr>	
+			<td>Математика</td>
+			<td>Кузнецов В.Г.</td>
+			<td>160</td>
+			<td> </td>
+			<td>  </td>
+			<td> </td>
+			<td> </td>
+			<td>  </td>
+			<td> </td>
+		</tr>
+		
+		<tr>	
+			<td>География</td>
+			<td>Сидорова Д.Е.</td>
+			<td>64</td>
+			<td> </td>
+			<td>  </td>
+			<td> </td>
+			<td> </td>
+			<td>  </td>
+			<td> </td>
+		</tr>
+	
+	</table>
+  <script>
+        function randomColor() {
+            const randomclr = () => Math.floor(Math.random() * 256);
+            return `rgb(${randomclr()},${randomclr()},${randomclr()})`;
+        }
+
+        let cells = document.querySelectorAll('td');
+        cells.forEach(function(item) {
+            item.onclick = function() {
+				item.style.backgroundColor = randomColor();
+            };
+        });
+  </script>
+  </body>
+</html>

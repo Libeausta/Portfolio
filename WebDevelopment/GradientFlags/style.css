@@ -1,0 +1,81 @@
+body{
+	font-family: Arial;
+	font-size: 17pt;
+}
+div{
+	display: inline-block;
+	height: 260px;
+	width: 400px;
+	margin: 100px 0px 0px 160px;
+}
+legend{
+	margin: 50px 0px -40px 100px;
+}
+.irl{
+	background-image: linear-gradient(to right, #029544 32%, white 15%, white 66%, #ff7300 25%);
+	border: 1px solid #505559;
+}
+.tto{
+	background-image: linear-gradient(45deg, #ce1127 39.5%, white 39.5% 43%, black 43% 57%, white 57% 60.5%, #ce1127 60.5%);
+	border: 1px solid #505559;
+}
+.cgo{
+	background-image: linear-gradient(135deg, #009543 39.5%, #fcde4a 39.5% 60.5%, #db241e 60.5% );
+	border: 1px solid #505559;
+}
+.mus{
+	background-image: linear-gradient(#eb2839 25%, #1a206e 25% 50%, #fed501 50% 75%, #00a551 75%);
+	border: 1px solid #505559;
+}
+.bwa{
+	background-image: linear-gradient(#449ed3 30%, white 30% 33.5%, black 33.5% 66%, white 66% 69.5%, #449ed3 69.5%);
+	border: 1px solid #505559;
+}
+.mdg{
+	background-image: linear-gradient(90deg, rgba(255,255,255,1) 20% 35%, rgba(255,255,255,0) 35%),
+	linear-gradient(360deg, rgba(1,126,58,1) 35% 52%, rgba(0,255,0,0) 52%),
+	linear-gradient(270deg, rgba(252,62,50,1) 52% 68%, rgba(255,0,0,0) 68%);
+	border: 1px solid #505559;
+}
+.irl::before{
+	content:'Ирландия';
+	position:absolute;
+	top: 75px;
+	left: 172px;
+	font-size: 17pt;
+}
+.tto::before{
+	content:'Республика Тринидад и Тобаго';
+	position:absolute;
+	top: 75px;
+	left: 742px;
+	font-size: 17pt;
+}
+.cgo::before{
+	content:'Республика Конго';
+	position:absolute;
+	top: 75px;
+	right: 422px;
+	font-size: 17pt;
+}
+.mus::before{
+	content:'Маврикий';
+	position:absolute;
+	top: 445px;
+	left: 172px;
+	font-size: 17pt;
+}
+.bwa::before{
+	content:'Ботсвана';
+	position:absolute;
+	top: 445px;
+	left: 742px;
+	font-size: 17pt;
+}
+.mdg::before{
+	content:'Мадагаскар';
+	position:absolute;
+	top: 445px;
+	right: 487px;
+	font-size: 17pt;
+}

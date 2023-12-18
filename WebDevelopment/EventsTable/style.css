@@ -1,0 +1,18 @@
+html {
+  font-family: Times New Roman;
+  background: #fff5ee;
+}
+
+table {
+  border-spacing: 3px 3px;
+  border: 3px solid #7f7679;
+  letter-spacing: 1px;
+  font-size: 16px;
+  width: 600px;
+  margin: auto;
+}
+td {
+  border: 2px solid #a0a0a4;
+  padding: 20px 25px;
+  text-align: center;
+}

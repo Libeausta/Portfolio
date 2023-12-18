@@ -1,0 +1,24 @@
+<svg width="1500" height="1000"
+xmlns="http://www.w3.org/2000/svg" 
+xmlns:ev="http://www.w3.org/2001/xml-events" 
+xmlns:xlink="http://www.w3.org/1999/xlink">
+	<image xlink:href="https://i.pinimg.com/736x/ab/6d/bf/ab6dbf31f7a9fd20021393ac6b75eed0--bear-paintings-teddy-bears.jpg" x="100" y="-30" width="110%" height="110%" 
+	style="opacity:0.6;" />
+	<defs>
+		<path id="path1" stroke="black" d="M 610.25 409.325 C 652.325 284.75 826.4 283.1 874.25 406.85 M 881.675 417.575 L 935.3 483.3 M 965 510.8 L 1023.575 417.575 M 1031 401.9 C 1068.125 283.1 1252.925 281.45 1297.475 401.9 M 1299.125 422.525 L 1303.25 538.025 M 1303.25 553.7 L 991 905 M 986 924 L 624 597 M 609.7 598.8 L 607.5 434.9" />
+	</defs>
+	<linearGradient id="gradient2">
+		<stop offset="15%" stop-color="#2e1e8a"/>
+		<stop offset="20%" stop-color="#d342ff"/>
+		<stop offset="80%" stop-color="#27bddb"/>
+		<stop offset="100%" stop-color="#d342ff"/>
+	</linearGradient>
+	<defs>
+		<filter id="filter1">
+			<feDropShadow stdDeviation="5 10" dx="7" dy="5" flood-color="#130c36"/>
+		</filter>
+	</defs>
+	<text x="0" y="0" style="font-size:36pt; font-family:Calibri;" fill="url(#gradient2)" filter="url(#filter1)">
+		<textPath xlink:href="#path1">Я изобрел понятие «объектно-ориентированный», но могу заявить, что не имел в виду C++ при этом</textPath>
+	</text>	 
+</svg>

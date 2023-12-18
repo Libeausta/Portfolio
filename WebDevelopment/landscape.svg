@@ -1,0 +1,58 @@
+<svg width="100%" height="100%"
+xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect width="2300" height="2300" fill="#e787a2" />
+	<!-- солнце-->
+	<ellipse cx="950" cy="570" rx="320" ry="320" fill="rgba(248,233,215, 0.2)" />
+	<ellipse cx="950" cy="570" rx="280" ry="280" fill="rgba(248,233,215, 0.3)" />
+	<ellipse cx="950" cy="570" rx="260" ry="260" fill="rgba(248,233,215, 0.6)" />
+	<ellipse cx="950" cy="570" rx="240" ry="240" fill="rgba(254,254,254, 0.4)" />
+	<!-- холмы-->
+	<polygon points="1520 750 2300 800 1670 50" fill="#db6585"/>
+	<polygon points="1700 300 2300 800 1670 50" fill="#d35d7d"/>
+	<ellipse cx="950" cy="670" rx="400" ry="100" fill="#ca4769" />
+	<ellipse cx="1400" cy="700" rx="170" ry="60" fill="#b73456" />
+	<ellipse cx="500" cy="640" rx="160" ry="100" fill="#b73456" />
+	<ellipse cx="620" cy="660" rx="200" ry="100" fill="#b73456" />
+	<ellipse cx="300" cy="690" rx="197" ry="152" fill="#8d2945" />
+	<ellipse cx="500" cy="750" rx="200" ry="152" fill="#752037" />
+	<ellipse cx="350" cy="750" rx="120" ry="80" fill="#752037" />
+	<ellipse cx="600" cy="800" rx="300" ry="152" fill="#752037" />
+	<ellipse cx="1000" cy="800" rx="400" ry="200" fill="#752037" />
+	<ellipse cx="1400" cy="800" rx="200" ry="120" fill="#752037" />
+	<polygon points="-95,635 35,305 195,635" fill="#5d202f"/>
+	<polygon points="300 800 200 470 150 700 " fill="#5d202f"/>
+	<polygon points="-235,665 32,315 40,350" fill="#4c1624"/>
+	<polygon points="-35,965 2,435 500,950" fill="#4c1624"/>
+	<polygon points="35,665 202,815 200,470" fill="#4c1624"/>
+	<polygon points="1480 800 2000 800 1770 400" fill="#4c1624"/>
+	<polygon points="1680 800 2000 800 1890 500" fill="#4c1624"/>
+	<polygon points="1760 490 1885 600 1770 402" fill="#5d202f"/>
+	<rect x="0" y="780" width="2000" height="230" fill="#4c1624" />
+	<!-- ступеньки -->
+	<rect x="740" y="760" width="600" height="25" fill="#4c1624" />
+	<rect x="765" y="740" width="550" height="25" fill="#4c1624" />
+	<rect x="790" y="720" width="500" height="25" fill="#4c1624" />
+	<rect x="815" y="700" width="450" height="25" fill="#4c1624" />
+	<rect x="840" y="680" width="400" height="25" fill="#4c1624" />
+	<!-- балки -->
+	<rect x="870" y="550" width="10" height="250" fill="#4c1624" />
+	<rect x="890" y="550" width="10" height="250" fill="#4c1624" />
+	<rect x="1200" y="550" width="10" height="250" fill="#4c1624" />
+	<rect x="1180" y="550" width="10" height="250" fill="#4c1624" />
+	<!-- стены -->
+	<rect x="930" y="290" width="40" height="460" fill="#4c1624" />
+	<rect x="1110" y="290" width="40" height="460" fill="#4c1624" />
+	<rect x="1000" y="290" width="30" height="460" fill="#4c1624" />
+	<rect x="1055" y="290" width="30" height="460" fill="#4c1624" />
+	<rect x="930" y="630" width="200" height="60" fill="#4c1624" />
+	<rect x="930" y="505" width="200" height="40" fill="#4c1624" />
+	<rect x="930" y="380" width="200" height="40" fill="#4c1624" />
+	<!-- крыши -->
+	<rect x="910" y="545" width="260" height="20" fill="#4c1624" />
+	<polygon points="890 530 847 555 1230 555 1187 530" fill="#4c1624"/>
+	<rect x="910" y="423" width="260" height="20" fill="#4c1624" />
+	<polygon points="890 408 857 433 1220 433 1187 408" fill="#4c1624"/>
+	<rect x="910" y="296" width="260" height="20" fill="#4c1624" />
+	<polygon points="993 216 850 301 1237 301 1084 216" fill="#4c1624"/>
+	<polygon points="993 216 1084 216 1035 60" fill="#4c1624"/>
+</svg>

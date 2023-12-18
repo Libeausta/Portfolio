@@ -1,0 +1,62 @@
+body{
+	font-size: 20px;
+	font-family: Calibri;
+}
+input{
+	display:none;
+}
+label{
+	padding: 85px;
+	
+}
+div{
+	margin-top: 30px;
+	border: 2px solid #d5d5d5;
+	width: 1870px;
+}
+input:checked + label::before{
+content: url(dishes/lid.jpg);
+margin-top: 20px;
+}
+.salad::before{
+content: url(dishes/salad.jfif);
+display: inline-block; 
+position:absolute;
+top: 75px;
+left: 40px;
+}
+.burrito::before{
+content: url(dishes/burrito.jfif);
+display: inline-block; 
+position:absolute;
+top: 75px;
+left: 320px;
+}
+.soup::before{
+content: url(dishes/soup.jfif);
+display: inline-block; 
+position:absolute;
+top: 75px;
+left: 580px;
+}
+.chicken::before{
+content: url(dishes/chiken.jfif);
+display: inline-block; 
+position:absolute;
+top: 75px;
+left: 850px;
+}
+.meat::before{
+content: url(dishes/assorted.jfif);
+display: inline-block; 
+position:absolute;
+top: 75px;
+left: 1145px;
+}
+.fish::before{
+content: url(dishes/fish.jfif);
+display: inline-block; 
+position:absolute;
+top: 75px;
+left: 1500px;
+}
